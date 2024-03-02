@@ -144,9 +144,9 @@ class HomeController extends Controller
 
      ```bash
      <!-- resources/views/dashboard/home.blade.php -->
-     <x-web-app-layout>
+     <x-app-layout>
       <h1>Dashboard 👋</h1>
-     </x-web-app-layout>
+     </x-app-layout>
      ```
 
 
