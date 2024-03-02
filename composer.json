@@ -13,7 +13,7 @@
     },
     "autoload": {
         "files": [
-            "src/helper.php"
+            "src/MainFunction.php"
         ],
         "psr-4": {
             "LaravelSetupLayout\\": "src/"
