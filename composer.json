@@ -1,0 +1,22 @@
+{
+    "name": "erag/laravel-setup-layout",
+    "description": "A package for setting up layout in Laravel applications.",
+    "license": "MIT",
+    "authors": [
+        {
+            "name": "Er Amiit Gupta",
+            "email": "info.eramitgupta@gmail.com"
+        }
+    ],
+    "require": {
+        "php": ">=8.0.0"
+    },
+    "autoload": {
+        "files": [
+            "src/helper.php"
+        ],
+        "psr-4": {
+            "LaravelSetupLayout\\": "src/"
+        }
+    }
+}
