@@ -7,6 +7,8 @@
 - Customizable layout configurations to suit your application's needs.
 - Enhances the structure and organization of your Laravel projects.
 
+![screenshot](https://raw.githubusercontent.com/eramitgupta/files/main/laravel-setup-layout.gif)
+
 ## Installation
 Install the package via Composer:
 
