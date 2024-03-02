@@ -149,6 +149,63 @@ class HomeController extends Controller
      </x-app-layout>
      ```
 
+     `@stack('page_scripts')`: Similar to `@stack('page_styles')`, this directive is used to push page-specific JavaScript scripts into a stack in your layout file:
+
+    ```bash
+    <!-- View file: resources/views/home.blade.php -->
+    @push('page_styles')
+        <link rel="stylesheet" href="path/to/home-styles.css">
+    @endpush
+
+    <!-- View file: resources/views/home.blade.php -->
+    @push('page_scripts')
+        <script src="path/to/home-scripts.js"></script>
+    @endpush
+
+    ```
+
+    Using the `@section('title', 'Home Page')` directive, you're defining the title of the page as "Home Page". This value will replace the `@yield('title')` directive in your layout file.
+    Within the layout, you'll have access to the title value defined in this view.
+
+    It looks like you're using Blade directives to define the title and content for the home.blade.php view within the x-web-app-layout. Here's the corrected version:
+    
+    ```bash
+    <!-- resources/views/home.blade.php -->
+    <x-web-app-layout>
+        @section('title', 'Home Page')
+
+        <h1>Front-End 👋</h1>
+
+        <!-- Your additional content goes here -->
+    </x-web-app-layout>
+    ```
+    - And you title Controller can also pass from
+    ```bash 
+        <?php
+
+    namespace App\Http\Controllers;
+
+    use Illuminate\Http\Request;
+
+    class HomeController extends Controller
+    {
+        public function index()
+        {
+            #/yourproject/config/layout-assets.php
+            # You can add more as per your requirement
+            # ex addWebAsset(['home', '', '']);
+            addWebAsset(['home', 'jq']);
+            $data['title'] = 'Home Page';
+            return view('home', $data);
+        }
+    }
+
+    <!-- resources/views/home.blade.php -->
+    <x-web-app-layout>
+        @section('title', $title)
+        <h1>Front-End 👋</h1>
+    </x-web-app-layout>
+    ```
 
 
 
