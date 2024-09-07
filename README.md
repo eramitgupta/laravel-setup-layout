@@ -1,5 +1,5 @@
 
-## Layout Setup for Laravel Applications 🔥.
+## Advanced Layout Setup for Laravel Applications 🔥.
 ### A versatile and easy-to-use package for setting up layouts in Laravel applications.
 
 ## Features
