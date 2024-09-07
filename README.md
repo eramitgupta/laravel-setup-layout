@@ -18,7 +18,6 @@ composer require erag/laravel-setup-layout
 
 
 ### Step 1: Service Provider
-Add the following line to the providers array in your `config/app.php` file:
 
 Ensure the service provider is registered in your `/bootstrap/providers.php` file:
 
