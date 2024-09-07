@@ -19,5 +19,12 @@
             "LaravelSetupLayout\\": "src/"
         }
     },
+     "extra": {
+        "laravel": {
+            "providers": [
+                "LaravelSetupLayout\\LaravelSetupLayoutServiceProvider"
+            ]
+        }
+    },
     "prefer-stable": true
 }
