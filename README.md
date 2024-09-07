@@ -22,6 +22,8 @@ Add the following line to the providers array in your `config/app.php` file:
 
 Ensure the service provider is registered in your `/bootstrap/providers.php` file:
 
+#### For Laravel v11.x 
+
 ```php
 return [
     // ...
@@ -38,6 +40,7 @@ Ensure the service provider is registered in your `config/app.php` file:
     // ...
     LaravelSetupLayout\LaravelSetupLayoutServiceProvider::class,
 ],
+```
 
 
 ### Step 2: Publishing Configuration
