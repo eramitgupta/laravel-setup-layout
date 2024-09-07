@@ -20,14 +20,24 @@ composer require erag/laravel-setup-layout
 ### Step 1: Service Provider
 Add the following line to the providers array in your `config/app.php` file:
 
-```bash
+Ensure the service provider is registered in your `/bootstrap/providers.php` file:
 
+```php
+return [
+    // ...
+      LaravelSetupLayoutServiceProvider::class
+];
+```
+
+#### For Laravel v10.x
+
+Ensure the service provider is registered in your `config/app.php` file:
+
+```php
 'providers' => [
-    // Other service providers...
+    // ...
     LaravelSetupLayout\LaravelSetupLayoutServiceProvider::class,
 ],
-
-```
 
 
 ### Step 2: Publishing Configuration
