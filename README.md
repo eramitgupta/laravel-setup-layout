@@ -6,8 +6,6 @@ A versatile, easy-to-use package to streamline layout creation in Laravel.
 - Customizable configurations to fit your app's needs.
 - Improves structure and organization in Laravel projects.
 
-![screenshot](https://raw.githubusercontent.com/eramitgupta/files/main/laravel-setup-layout.gif)
-
 ## Installation
 
 Install the package via Composer:
