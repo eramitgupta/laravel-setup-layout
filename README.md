@@ -1,4 +1,7 @@
 ## Advanced Layout Setup for Laravel Applications 🔥  
+<center>
+<img width="956" alt="Screenshot 2024-10-04 at 10 34 23 PM" src="https://github.com/user-attachments/assets/b05fe465-6349-4705-9cf5-4f7086182f2d">
+</center>
 A versatile, easy-to-use package to streamline layout creation in Laravel.
 
 ## Features
