@@ -2,6 +2,13 @@
 <center>
 <img width="956" alt="Screenshot 2024-10-04 at 10 34 23 PM" src="https://github.com/user-attachments/assets/b05fe465-6349-4705-9cf5-4f7086182f2d">
 </center>
+<div align="center">
+
+[![Packagist License](https://img.shields.io/badge/Licence-MIT-blue)](https://github.com/eramitgupta/laravel-setup-layout/blob/main/LICENSE)
+[![Latest Stable Version](https://img.shields.io/packagist/v/erag/laravel-setup-layout?label=Stable)](https://packagist.org/packages/erag/laravel-setup-layout)
+[![Total Downloads](https://img.shields.io/packagist/dt/erag/laravel-setup-layout.svg?label=Downloads)](https://packagist.org/packages/erag/laravel-setup-layout)
+
+</div>
 A versatile, easy-to-use package to streamline layout creation in Laravel.
 
 ## Features
